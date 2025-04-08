@@ -5,8 +5,8 @@ pipeline{
     }
     environment{
         PATH = "C:\\Program Files\\Docker\\Docker\\resources\\bin;$PATH"
-        IMAGE_NAME="ymg-ders-test"
-        CONTAINER_NAME="nginx-test-container"
+        IMAGE_NAME="ymg-img"
+        CONTAINER_NAME="nginx-container"
     }
     stages{
         stage('Repo Klonla'){
